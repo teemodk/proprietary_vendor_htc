@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libasound.so:system/lib/libasound.so \
   vendor/htc/endeavoru/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/endeavoru/proprietary/app/PGPSDownloader.apk:system/app/PGPSDownloader.apk \
+  vendor/htc/endeavoru/proprietary/app/Tegra3Parts.apk:system/app/Tegra3Parts.apk \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
   vendor/htc/endeavoru/proprietary/bin/navl_server:system/bin/navl_server \
   vendor/htc/endeavoru/proprietary/bin/rilposd:system/bin/rilposd \
