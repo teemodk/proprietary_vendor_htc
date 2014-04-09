@@ -21,6 +21,11 @@
 #    vendor/htc/endeavoru/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #    vendor/htc/endeavoru/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
+# kill log noise
+# vendor/htc/endeavoru/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
+# vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
+# vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
+
 PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
   vendor/htc/endeavoru/proprietary/bin/nvm_server:system/bin/nvm_server \
@@ -214,13 +219,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libakmd.so:system/lib/libakmd.so \
   vendor/htc/endeavoru/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
   vendor/htc/endeavoru/proprietary/lib/libewtzmu2cali.so:system/lib/libewtzmu2cali.so \
-  vendor/htc/endeavoru/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-  vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-  vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
   vendor/htc/endeavoru/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/nfc.endeavoru.so:system/lib/hw/nfc.endeavoru.so \
