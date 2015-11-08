@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/lib/libnvomxadaptor.so:/system/lib/libnvomxadaptor.so \
         vendor/htc/endeavoru/proprietary/lib/libnvomxilclient.so:/system/lib/libnvomxilclient.so \
         vendor/htc/endeavoru/proprietary/lib/libnvomx.so:/system/lib/libnvomx.so \
-        vendor/htc/endeavoru/proprietary/lib/libnvos.so:/system/lib/libnvos.so \
         vendor/htc/endeavoru/proprietary/lib/libnvparser.so:/system/lib/libnvparser.so \
         vendor/htc/endeavoru/proprietary/lib/libnvrm_graphics.so:/system/lib/libnvrm_graphics.so \
         vendor/htc/endeavoru/proprietary/lib/libnvrm.so:/system/lib/libnvrm.so \
@@ -237,3 +236,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/media/GPU/stylizeColorRamp.bmp:/system/media/GPU/stylizeColorRamp.bmp \
         vendor/htc/endeavoru/proprietary/media/GPU/stylizeContrastRamp.bmp:/system/media/GPU/stylizeContrastRamp.bmp \
         vendor/htc/endeavoru/proprietary/media/GPU/twoToneMaskH.bmp:/system/media/GPU/twoToneMaskH.bmp
+#        vendor/htc/endeavoru/proprietary/lib/libnvos.so:/system/lib/libnvos.so \
